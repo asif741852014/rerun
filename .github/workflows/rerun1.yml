@@ -1,0 +1,10 @@
+name: rerun checking
+on:
+    push:
+jobs:
+    job1:
+        runs-on: ubuntu-latest
+        steps:
+        - run: echo "hai my name is asif"
+        - name: sec
+          run: exit 1
