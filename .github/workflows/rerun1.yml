@@ -7,4 +7,4 @@ jobs:
         steps:
         - run: echo "hai my name is asif"
         - name: sec
-          run: exit 1
+          run: exit 0
